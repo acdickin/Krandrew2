@@ -1,0 +1,155 @@
+@font-face {
+    font-family: 'watermelon_scriptregular';
+    src: url('../font/watermelonotf-webfont.woff2') format('woff2'),
+         url('../font/watermelonotf-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'watermelon_scriptregular';
+    src: url('../font/watermelonttf-webfont.woff2') format('woff2'),
+         url('../font/watermelonttf-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/*Header Component*/
+
+.header{
+  color:#F2F2F2;
+  font-family: 'watermelon_scriptregular';
+}
+.nav-bar{
+  font-family: 'Quicksand', sans-serif;
+}
+.title{
+  font-family: 'Quicksand', sans-serif;
+}
+.nav-item> li >a:hover{
+  border:none;
+}
+
+
+@media only screen and (min-width: 760px) {
+  .nav-bar{
+    background:url(../img/header.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 9rem;
+  }
+  .menu-btn{
+    display: none;
+  }
+
+  .nav-bar{
+    width:100%;
+    text-decoration:none;
+    border:none;
+  }
+  .nav-items {
+    text-align:left;
+
+  }
+  .nav-item {
+    display:inline-block;
+    font-size:1.5em;
+    line-height: 2em;
+  }
+  .nav-divider{
+    font-size: 2rem;
+    display: inline-block;
+    padding: 0 1% 0 1%;
+  }
+  .navMenuMobile{
+    display:none;
+  }
+}
+
+
+
+
+@media only screen and (max-width: 760px) {
+  .navMenuMobile{
+    display:block;
+  }
+   .MenuBtn{
+    display:none;
+  }
+  body{
+    margin:0;
+  }
+  .container{
+    padding:0  !important;
+  }
+
+  .nav-bar{
+    display:block;
+    text-align:center;
+    text-decoration:none;
+    width: 100%;
+  }
+  .navMenu{
+    display:none;
+  }
+  .header{
+    background:url(../img/header.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height:6rem;
+  }
+  h1 {
+    font-size: 1.2rem;
+    padding: 0;
+    line-height: 2rem;
+    padding-left: 5rem;
+    float: right;
+    margin-left: 10px;
+  }
+  .menu-btn{
+    color:#EEE;
+  }
+  .menu-btn:hover{
+    color:#CCC;
+  }
+  .nav-item {
+    list-style-type: none;
+    font-family: 'Quicksand', sans-serif;
+  }
+  img#mobileMenu{
+    margin-top:-80px;
+    margin-left: 20px;
+    float:left;
+    height:50px;
+    background-color: darkgray;
+    border-radius:10px;
+  }
+  img#mobileMenu:hover{
+    background-color: gray;
+  }
+  .active{
+    background-color:#555 !important ;
+  }
+}
+.top{
+  font-family: 'Quicksand', sans-serif;
+  position:fixed;
+  top:80%;
+  right:10px;
+  opacity:.4;
+  width:10vh;
+  height:8vh;
+  background-image: url('../img/up-arrow.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.top:hover{
+  opacity:.8;
+}
+
+@media only screen and (max-width: 350px) {
+  h1{
+    font-size: 1.2rem;
+  }
+}

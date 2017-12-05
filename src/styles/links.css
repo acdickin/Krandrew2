@@ -1,0 +1,55 @@
+/*Animation for underline*/
+#underline{
+  position:relative;
+  border:none;
+}
+
+#underline:before {
+  content:'';
+  display:block;
+  position:absolute;
+  left:0;
+  bottom:0;
+  height:4px;
+  width:0;
+  transition:width 0s ease, background 1s ease;
+}
+
+#underline:after {
+  content:'';
+  display:block;
+  position:absolute;
+  right:0;
+  bottom:0;
+  height:4px;
+  width:0;
+  background:rgb(206, 247, 255);
+  transition:width 1s ease;
+}
+
+#underline:hover:before {
+  width:100%;
+  background:rgb(206, 247, 255);
+  transition:width 1s ease;
+}
+
+#underline:hover:after {
+  width:100%;
+  background:transparent;
+  transition:all 0s ease;
+}
+a#underline:hover {
+  text-decoration: none;
+}
+@media only screen and (max-width: 749px) {
+  #underline:before {
+    height:2px;
+  }
+
+  #underline:after {
+    height:2px;
+  }
+  .nav-item{
+    text-decoration: none;
+  }
+}

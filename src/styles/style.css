@@ -1,0 +1,103 @@
+
+/*General Styling*/
+body{
+  background-color: #333333 !important;
+}
+.flex-container {
+  display: -webkit-flex;
+  display: flex;
+  margin:0 auto;
+}
+a:hover {
+  text-decoration: none;
+ }
+a{
+  text-decoration: none;
+}
+.navMenu a{
+  color:#56CCF2 !important;
+}
+.navMenu{
+  color:#56CCF2 !important;
+}
+
+.title-blk{
+  width:100%;
+  text-align:center;
+  font-size: larger;
+
+}
+h2.title{
+  margin: 20px 0;
+  color:#EEE !important;
+}
+.main{
+  color:#F2F2F2;
+  font-family: 'Quicksand', sans-serif;
+}
+p{
+  font-size: 1.2rem;
+}
+/*About us*/
+.about-text{
+  margin-top:-20px;
+  font-size: larger;
+}
+@media only screen and (max-width: 749px) {
+  .about-text{
+    margin-top:-20px;
+    padding:5% 10%;
+  }
+}
+/*Carousel Componet*/
+.carousel-conatiner{
+  margin:20px auto;
+}
+.carousel-img{
+  height:20%;
+  max-height:512px;
+}
+
+/*getInTouch Form*/
+.form{
+  width:100%;
+}
+.carousel .slide .legend {
+  background: rgba(0, 0, 0, 0.6) !important;
+}
+
+/*Info*/
+.link{
+  color:rgb(120, 133, 168);
+}
+.map{
+  color:black;
+}
+@media(max-width: 420px){
+  .maps{
+    margin:auto;
+    height:50vh;
+    width:100vw;
+  }
+}
+@media(min-width: 421px){
+  .maps{
+    margin:auto;
+    height:50vh;
+    width:55vw;
+  }
+}
+
+h4{
+  margin-top: .5rem;
+}
+h1{
+  margin:0;
+  padding:20px;
+}
+.freebirdAccentBackground{
+      background-color:#fff;
+}
+div#disconnect {
+    text-align: left;
+}
