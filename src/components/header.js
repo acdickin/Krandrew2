@@ -26,7 +26,7 @@ export default class Header extends Component{
 			</div>
 				<div className="nav-items">
 					<div className="menu-btn">
-						<img id="mobileMenu" className={this.state.visible ? 'active': '' } src="../../public/img/menu.png" alt="menu" onClick={this.toggleMenu}/>
+						<img id="mobileMenu" className={this.state.visible ? 'active': '' } src={require("../img/menu.png")} alt="menu" onClick={this.toggleMenu}/>
 							{
 								this.state.visible
 								?<MobileNav/>
