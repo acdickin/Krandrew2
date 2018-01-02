@@ -30,14 +30,16 @@
 .nav-item> li >a:hover{
   border:none;
 }
-
+h1{
+  font-size: 3em;
+}
 
 @media only screen and (min-width: 760px) {
   .nav-bar{
     background:url(../img/header.svg);
     background-size: 100%;
     background-repeat: no-repeat;
-    height: 9rem;
+    height: 12rem;
   }
   .menu-btn{
     display: none;
@@ -54,7 +56,7 @@
   }
   .nav-item {
     display:inline-block;
-    font-size:1.5em;
+    font-size:2em;
     line-height: 2em;
   }
   .nav-divider{
@@ -100,7 +102,7 @@
     height:6rem;
   }
   h1 {
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding: 0;
     line-height: 2rem;
     padding-left: 5rem;

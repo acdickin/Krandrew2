@@ -1,0 +1,13 @@
+
+a{
+	color:#56CCF2;
+}
+
+.locImg{
+	width:100vw;
+}
+@media(min-width: 800px){
+	.locImg{
+		width:80vw;
+	}
+}

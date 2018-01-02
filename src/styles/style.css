@@ -3,6 +3,13 @@
 body{
   background-color: #333333 !important;
 }
+h2{
+  font-size:2em;
+}
+h4{
+ font-size: 1.7em;
+ margin:0;
+}
 .flex-container {
   display: -webkit-flex;
   display: flex;
@@ -36,10 +43,11 @@ h2.title{
   font-family: 'Quicksand', sans-serif;
 }
 p{
-  font-size: 1.2rem;
+  font-size: 1.1em;
 }
 /*About us*/
 .about-text{
+  padding: 0 5%;
   margin-top:-20px;
   font-size: larger;
 }
@@ -48,14 +56,17 @@ p{
     margin-top:-20px;
     padding:5% 10%;
   }
+  p{
+  font-size: 1.3em
+}
 }
 /*Carousel Componet*/
 .carousel-conatiner{
   margin:20px auto;
 }
 .carousel-img{
-  height:20%;
-  max-height:512px;
+  height:30%;
+  /*max-height:512px;*/
 }
 
 /*getInTouch Form*/
@@ -68,7 +79,7 @@ p{
 
 /*Info*/
 .link{
-  color:rgb(120, 133, 168);
+  color:##56CCF2;
 }
 .map{
   color:black;

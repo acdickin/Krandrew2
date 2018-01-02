@@ -10,6 +10,7 @@ require('./styles/header.css')
 require('./styles/links.css')
 require('./styles/blog.css')
 require('./styles/style.css')
+require('./styles/info.css')
 
 ReactDOM.render(
 	<BrowserRouter>
