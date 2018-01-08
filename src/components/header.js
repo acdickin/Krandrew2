@@ -62,7 +62,7 @@ export default class Header extends Component{
 								-
 						</li>
 						<li className	="nav-item">
-							<a href="https://www.amazon.com/wedding/share/Krandrew-Registry" id="underline">Our Registry</a>
+							<a href="https://www.myregistry.com/wedding-registry/Krystaal-McClain-and-Andrew-Dickinson-Seattle-WA/1394917" id="underline">Our Registry</a>
 						</li>
 						<li className="nav-divider">
 							-

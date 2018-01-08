@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter } from 'react-router-dom'
+import { HashRouter } from 'react-router-dom'
 
 import App from './components/app';
 import registerServiceWorker from './registerServiceWorker';
@@ -13,8 +13,8 @@ require('./styles/style.css')
 require('./styles/info.css')
 
 ReactDOM.render(
-	<BrowserRouter>
+	<HashRouter>
 		<App />
-	</BrowserRouter>
+	</HashRouter>
 	, document.getElementById('root'));
 registerServiceWorker();
