@@ -12,10 +12,10 @@ export default class Info extends Component {
       	<div className="title-blk blk">
       	  <h2 className="title">Wedding Info</h2>
           <div className="main">
-            <p><strong>Disconnect with us on our destination weekend wedding extravaganza.</strong> We intend to spend the weekend in the forest with all of you, from a welcome dinner Friday night to a send-off brunch on Sunday.</p>
+            <p><strong>Disconnect with us on our destination weekend wedding extravaganza.</strong> We intend to spend the weekend in the forest with all of you, we will feast at 5:00 PM, marry at 7:00 PM, and dance until 10:00PM.</p>
             <br/>
             <h2>Location</h2>
-           
+
             <p>
               Warm Springs Inn and Winery is located between the mountain towns of Leavenworth and Wenatchee. The area surrounding Warm Springs Inn is full of wineries and opportunities for outdoor recreation. We encourage taking the time to play tourist.
             </p>
@@ -49,20 +49,20 @@ export default class Info extends Component {
             <br/>
 
             <h4>Planes</h4>
-            
+
             <h3>Seattle-Tacoma International Airport</h3>
             <p>17801 International Boulevard, Seattle, WA 98158, United States</p>
             <br/>
             <h3>Pangborn Memorial Airport</h3>
             <p>1 Pangborn Drive, East Wenatchee, WA 98802, United States</p>
             <p>There is a SMALL airport in Wenatchee, WA. This is a great option for convenience, but will be a bit pricier, and involves traveling on a teeny-tiny plane.</p>
-            
+
             <br/><br/>
             <h4>Trains</h4>
             <p>Ride the Empire Builder, a daily Amtrak train leaves downtown Seattle at 4:40 PM and arrives in Wenatchee at 8:30 PM. <a href="https://www.amtrak.com/services/contentService.iblegacy.routes.empire-builder.html" alt="Amtrak Link">Amtrak</a></p>
 
             <p>You can catch the LINK light rail to the train station (International District/Chinatown stop) from SeaTac or downtown Seattle.  <a href="https://www.soundtransit.org/Schedules/Link-light-rail" alt="Link Light Rail">Link Light Rail</a></p>
-            
+
             <br/>
             <h4>Automobiles</h4>
             <p>Seattle is a little less than 3 hours away from Wenatchee by car.</p>
